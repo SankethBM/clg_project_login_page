@@ -1,13 +1,14 @@
 body {
+    height: 100%;
     margin: 0;
+    padding: 0;
     line-height: normal;
-    font-family: var(--font-itim);
     transition: transform 0.3s ease;
 }
 
 :root {
     /* fonts */
-    --font-itim: Itim;
+    /* --font-itim: Itim; */
 
     /* font sizes */
     --font-size-6xl: 25px;
@@ -37,6 +38,14 @@ body {
     cursor: pointer;
 }
 
+.logo-img {
+    height: 100px;
+    width: 150px;
+    display: block;
+    margin-left: 530px;
+    margin-right: auto;
+}
+
 .bg {
     position: relative;
     display: block;
@@ -49,7 +58,6 @@ body {
 
 .container {
     display: block;
-    margin: -42% 0 0 0;
     margin-left: auto;
     margin-right: auto;
     max-width: 400px;
