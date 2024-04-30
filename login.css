@@ -1,7 +1,7 @@
 body {
     margin: 0;
     line-height: normal;
-    font-family: "Anta", sans-serif;
+    font-family: var(--font-itim);
     transition: transform 0.3s ease;
 }
 
@@ -87,7 +87,8 @@ h2 {
     border: 1px solid #ccc;
     border-radius: 10px;
     margin-right: 20px;
-    font-family: "Anta", sans-serif;
+    font-size: 15px;
+    font-family: var(--font-itim);
 }
 
 .input-group input:focus {
@@ -105,7 +106,7 @@ button {
     margin-top: 5px;
     cursor: pointer;
     transition: transform 0.3s ease;
-    font-family: "Anta", sans-serif;
+    font-family: var(--font-itim);
 }
 
 button:hover {
